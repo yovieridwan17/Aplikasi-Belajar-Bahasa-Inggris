@@ -1,0 +1,7 @@
+// Follow these steps after you run 'flutter pub get' and setup Firebase:
+// 1. Download google-services.json from Firebase Console and place it in android/app/
+// 2. Tambahkan konfigurasi Firebase ke project Android dan iOS jika perlu (lihat dokumentasi Firebase Flutter)
+// 3. Jalankan aplikasi dengan perintah berikut di PowerShell:
+//    flutter run
+//
+// Jika ada error, pastikan dependencies sudah terinstall dan backend sudah jalan di http://localhost:8000
