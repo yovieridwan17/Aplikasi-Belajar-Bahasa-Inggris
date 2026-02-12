@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import '../models/chat_message.dart';
 import '../services/api_service.dart';
 
@@ -32,10 +31,10 @@ class _ChatScreenState extends State<ChatScreen> {
     _controller.clear();
 
     try {
-      final user = FirebaseAuth.instance.currentUser;
-      if (user == null) throw Exception('Not authenticated');
+      // For demo purposes, use a dummy user ID
+      final userId = 'demo_user';
       final aiMsg = await ApiService.sendMessage(
-        userId: user.uid,
+        userId: userId,
         mode: _mode,
         message: text,
       );
@@ -120,9 +119,11 @@ class _ChatScreenState extends State<ChatScreen> {
           ),
           IconButton(
             icon: Icon(Icons.logout),
-            onPressed: () async {
-              await FirebaseAuth.instance.signOut();
-              Navigator.pushReplacementNamed(context, '/');
+            onPressed: () {
+              // For demo, just clear messages
+              setState(() {
+                _messages.clear();
+              });
             },
           ),
         ],
