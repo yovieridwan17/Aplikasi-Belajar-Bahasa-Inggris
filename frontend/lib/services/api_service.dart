@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/chat_message.dart';
 
 class ApiService {
-  static const String _baseUrl = 'http://10.0.2.2:8000'; // Ganti ke IP backend jika pakai emulator Android
+  static const String _baseUrl = 'http://localhost:8000'; // Backend URL for local development
 
   static Future<ChatMessage> sendMessage({
     required String userId,

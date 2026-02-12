@@ -1,12 +1,12 @@
 # Testing Plan for AI English Learning App
 
 ## Backend Tests (Python/FastAPI)
-- [ ] Add pytest and httpx to requirements.txt
-- [ ] Create tests/ directory
-- [ ] Test models (request/response validation)
-- [ ] Test main app (endpoint, CORS, error handling)
-- [ ] Test ai_service with mocking (no real API calls)
-- [ ] Run backend tests
+- [x] Add pytest and httpx to requirements.txt
+- [x] Create tests/ directory
+- [x] Test models (request/response validation)
+- [x] Test main app (endpoint, CORS, error handling)
+- [x] Test ai_service with mocking (no real API calls)
+- [x] Run backend tests
 
 ## Frontend Tests (Flutter)
 - [ ] Ensure flutter_test is in pubspec.yaml
