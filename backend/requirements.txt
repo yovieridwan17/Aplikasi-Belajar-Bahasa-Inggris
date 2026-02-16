@@ -1,10 +1,12 @@
 fastapi
 uvicorn
-httpx
 python-dotenv
 pydantic
+sqlalchemy
+passlib
+python-jose
+python-multipart
+cryptography
 pytest
 pytest-asyncio
-pytest-httpx
-groq
 pytest-mock
