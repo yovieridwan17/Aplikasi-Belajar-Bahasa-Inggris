@@ -1,4 +1,4 @@
-import '../entities/word.dart';
+import '../../domain/entities/word.dart';
 
 class VocabularyData {
   static const List<Word> numbers = [
