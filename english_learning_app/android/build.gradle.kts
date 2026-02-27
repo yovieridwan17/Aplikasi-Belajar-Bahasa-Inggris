@@ -12,7 +12,7 @@ val newBuildDir: Directory =
 rootProject.layout.buildDirectory.value(newBuildDir)
 
 subprojects {
-    val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
+    val : Directory = newBuildDir.dir(project.name)
     proect.layout.buildDirectory.value(newSubprojectBuildDir)
 
 subprojects {
