@@ -1,10 +1,6 @@
 plugins {
     id")
-    id("kotlin-android")
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
-    id("dev.flutter.flutter-gradle-plugin")
-}
-
+    id
 android {
     
         sourceCompatibility = JavaVersion.VERSION_17
