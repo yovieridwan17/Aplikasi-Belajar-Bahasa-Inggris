@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify  own unique Application ID (https://developer.android.com/studio/blication-id.html).
+         TODO: Specify  own unique Application ID (https://developer.android.com/studio/blication-id.html).
         applicationId = "com.example.english_learning_app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
