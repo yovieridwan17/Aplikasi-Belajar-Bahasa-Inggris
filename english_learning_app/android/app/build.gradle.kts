@@ -4,7 +4,7 @@ plugins {
 android {
     
          = 
-        targetCompatibility = JavaVersion.VERSION_17
+         = JavaVersion.VERSION_17
     }
 
     kotlinOptions {
