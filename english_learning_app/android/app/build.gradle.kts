@@ -1,9 +1,4 @@
-plugins {
-    id")
-    id
-android {
-    
-         = 
+
          = JavaVersion.VERSION_17
     }
 
