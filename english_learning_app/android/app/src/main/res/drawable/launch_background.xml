@@ -8,5 +8,4 @@
         <bitmap
             android:gravity="center"
             android:src="@mipmap/launch_image" />
-    </item> -->
-<
+    </item> --
