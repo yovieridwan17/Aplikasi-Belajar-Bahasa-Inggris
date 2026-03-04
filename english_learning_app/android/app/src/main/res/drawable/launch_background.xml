@@ -7,5 +7,4 @@
     <!-- <item>
         <bitmap
             android:gravity="center"
-            android:src="@mipmap/launch_image" />
-  
+            android:src="@mipmap/launch_image" 
