@@ -1,1 +1,1 @@
-Halo teman-teman, di repositori ini gw sediakan file-file yang telah kita pelajari
+Halo teman-teman, di repositori ini gw sediakan file-file yang telah kita pelajari video youtube gw
