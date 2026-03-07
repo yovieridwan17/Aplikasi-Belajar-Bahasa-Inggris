@@ -1,2 +1,2 @@
 ini adalah repositori berisi belajar data analyst
-semoga membantu
+semoga membantu kita semua
