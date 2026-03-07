@@ -1,1 +1,1 @@
-Selamat datang di repositori tutorial data analyst
+Selamat datang di repositori tutorial data analyst, gw harap kalian bisa betah ya
