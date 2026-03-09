@@ -1,1 +1,1 @@
-Halo teman-teman, di
+Halo teman-teman
